@@ -4,9 +4,9 @@ import asyncio
 import os
 
 # ========== CONFIG FROM ENV ==========
-STRING_SESSION = os.environ.get('STRING_SESSION')
+STRING_SESSION = os.environ.get('1BVtsOHgBuwz81Gpdu_OrzLFbEan8_QF2iP5EWy5K8iPkHz1lFWooNpcYum30kSi1JnDGbFgksHxm4Qeopxo7WyL6Ap-JigFe7K2iusTJmC_vK73YArSBdKUlKYeW6S_npL5OVjmyvkPAFX43WsTBrIMCgEG2FUMwUtnLR7KgOG2iRNmdphxabQ0Av7ImuLZAiwovviR44yIcJXhOJqz2n9yjA8bjGbVFRG64wsWvBIt7nnW_oQp7p_HVT7PyjUyNJOvMa9mXUWhOz5ntEvMGBjNdoK32mcnoJUboihG0Jd6q6pN0y1cFFb8pM2eCezFleCDgDZXW0Re_QWW7EiW991ZXqQ2WNJE=')
 API_ID = int(os.environ.get('API_ID', 25897592))
-API_HASH = os.environ.get('API_HASH')
+API_HASH = os.environ.get('94e48115fc78c3eeca61a4561443f1ef')
 
 if not STRING_SESSION or not API_HASH:
     raise ValueError("Missing STRING_SESSION or API_HASH environment variables!")
